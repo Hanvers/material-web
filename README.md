@@ -1,5 +1,9 @@
 # 材料计算手记 · Material Web
 
+在线站点：<https://hanvers.github.io/material-web/>
+
+[![Deploy site to GitHub Pages](https://github.com/Hanvers/material-web/actions/workflows/deploy.yml/badge.svg)](https://github.com/Hanvers/material-web/actions/workflows/deploy.yml)
+
 把 `resource/` 里的 Markdown 自动构建成静态文档站，通过 GitHub Pages 发布。站点不依赖前端框架，构建后的页面全部是静态 HTML。
 
 - 首页、文档索引、文章页和全文搜索
