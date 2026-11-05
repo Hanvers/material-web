@@ -1,0 +1,43 @@
+{
+  "title": "材料计算手记",
+  "shortTitle": "材料计算手记",
+  "tagline": "Materials Computing Notes",
+  "description": "记录 VASP、LAMMPS 与机器学习力场的安装、计算流程和排错经验。把每一步写清楚，让结果可以复现。",
+  "author": "Materials Web",
+  "lang": "zh-CN",
+  "sourceDir": "resource",
+  "siteUrl": "https://hanvers.github.io/material-web/",
+  "repository": "https://github.com/Hanvers/material-web",
+  "repositoryBranch": "main",
+  "docs": {
+    "VASP-LAMMPS-安装报告与教程.md": {
+      "slug": "vasp-lammps-install",
+      "title": "VASP 6.5.1 + LAMMPS MLFF 安装与使用",
+      "navTitle": "VASP + LAMMPS MLFF 安装",
+      "description": "从 VTST 补丁、VASPml 编译到 LAMMPS pair_style vasp，一份基于学校服务器实测的完整安装报告，附训练、推理与踩坑总表。",
+      "category": "环境搭建",
+      "tags": [
+        "VASP 6.5.1",
+        "LAMMPS",
+        "MLFF"
+      ],
+      "order": 1,
+      "updated": "2026-10-20",
+      "featured": true
+    },
+    "vasp-lammps计算流程.md": {
+      "slug": "mlff-workflow",
+      "title": "VASP-LAMMPS 计算流程",
+      "navTitle": "MLFF 计算流程",
+      "description": "覆盖 train → select → refit → run 的完整 MLFF 工作流，附 Slurm 提交脚本、VASP/LAMMPS 运行模板与关键参数说明。",
+      "category": "计算流程",
+      "tags": [
+        "MLFF 工作流",
+        "Slurm",
+        "LAMMPS"
+      ],
+      "order": 2,
+      "featured": true
+    }
+  }
+}

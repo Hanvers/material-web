@@ -1,0 +1,21 @@
+{
+  "name": "material-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "把 resource/ 中的 Markdown 构建为可发布于 GitHub Pages 的静态文档站。",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "preview": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.11.1",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0"
+  }
+}
